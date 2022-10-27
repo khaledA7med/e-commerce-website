@@ -1,0 +1,19 @@
+<div class="item mb-5">
+    <div routerLink="product-details/{{data.id}}">
+        <img src="{{data.image}}" alt="">
+        <div class="item-body">
+            <h4>{{data.title}}</h4>
+            <hr>
+            <p>{{data.description}}</p>
+        </div>
+    </div>
+
+    <div class="px-3 mb-2 d-flex justify-content-between align-items-center">
+        <button class="btn btn-outline-info" *ngIf="!addButton" (click)="addButton = true">Add To Cart</button>
+        <div class="d-flex w-50" *ngIf="addButton">
+            <input type="number" class="form-control" [(ngModel)]="amount">
+            <button class="btn btn-outline-success m-1" (click)="add(); addButton = false;">Add</button>
+        </div>
+        <span>{{data.price}} $</span>
+    </div>
+</div>

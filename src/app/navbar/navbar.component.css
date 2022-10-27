@@ -1,0 +1,36 @@
+nav{
+    background-color: #000;
+    color: #fff;
+}
+nav .logo{
+    font-size: 38px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.content h2{
+    color: aqua;
+}
+.content h2:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.content li{
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.content li:hover{
+    color: aqua;
+}

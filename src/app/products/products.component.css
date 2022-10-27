@@ -1,0 +1,18 @@
+.header {
+  background-image: url(../../assets/bgjpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.text {
+  position: relative;
+  top: 50%;
+  left: 20%;
+  color: #000;
+  font-weight: bold;
+}
+.Brand{
+    color: #fff;
+}
