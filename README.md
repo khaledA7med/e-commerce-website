@@ -1,5 +1,5 @@
 # e-commerce-website
-API : https://fakestoreapi.com/
+- API : https://fakestoreapi.com/
 #About Project
 
 - project with Angular FrameWork
