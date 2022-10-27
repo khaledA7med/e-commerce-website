@@ -37,5 +37,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 =======
-# MovieDB-Website
->>>>>>> 1f4d7f606e873baffc64ebe89858491a0a2aef06
