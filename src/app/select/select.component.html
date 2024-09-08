@@ -1,6 +1,6 @@
 <div class="select_category">
-    <label for="" class="bg-info p-2 my-2"><i class='bx bxs-category-alt' ></i> {{title}} </label>
-    <select class="form-control text-center" (change)="detectChanges($event)">
+    <label for="" class="bg-info p-2 my-2"><i class='bx bxs-category-alt'></i> {{title}} </label>
+    <select class="form-select form-control text-center" (change)="detectChanges($event)">
         <option value="All" selected>All</option>
         <option *ngFor="let option of data" value="{{option}}">{{option}}</option>
     </select>

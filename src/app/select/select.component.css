@@ -1,16 +1,18 @@
-.select_category{
+.select_category {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 90px;
 }
-.select_category label{
+
+.select_category label {
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-.select_category select:hover{
+
+.select_category select:hover {
     cursor: pointer;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -23,6 +25,7 @@
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-.select_category select option:hover{
+
+.select_category select option:hover {
     background-color: #0DCAF0;
 }
