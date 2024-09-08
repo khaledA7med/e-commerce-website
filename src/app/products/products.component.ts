@@ -11,7 +11,6 @@ export class ProductsComponent implements OnInit {
   categories: any[] = [];
   cartProducts: any[] = [];
   loading: boolean = false;
-  alreadyExists: boolean = false;
 
   constructor(private _ServiceService: ServiceService) {}
 
@@ -71,7 +70,6 @@ export class ProductsComponent implements OnInit {
       );
       if (exist) {
         alert('This product is already in your cart !');
-        this.alreadyExists = true;
       } else {
         this.cartProducts.push(event);
         localStorage.setItem('cart', JSON.stringify(this.cartProducts));
